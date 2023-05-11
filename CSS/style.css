@@ -1,0 +1,72 @@
+*{
+ padding: 0;
+ box-sizing: border-box;
+    margin: 0;
+}
+body{
+   font-family: 'Dongle', sans-serif;
+   font-family: 'Raleway', sans-serif;
+
+   -webkit-font-smoothing: antialiased;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.topbar{
+    background-color:rgba(1, 1, 29, 0.932) ;
+    color: #fff;
+    padding: 0.75rem 0;
+}
+.icons > a{
+    margin-right: 0.6rem ;
+}
+.icons > a,
+.auth > div > a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.auth > div > i{
+    margin-right: 0.35rem;
+}
+
+
+.topbar > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar > .container> .auth{
+    display: flex;
+
+}
+.divider{
+    padding: 0 1rem;
+}
+
+.Top>.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.branding>img{
+    height: 5rem;
+    width: 100%;
+
+}
+.contact > div> h5,
+ .time >div >h5{
+    font-family: "Raleway-Black";
+    margin-bottom: 0.25rem;
+} 
